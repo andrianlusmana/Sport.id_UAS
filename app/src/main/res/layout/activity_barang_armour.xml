@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_2"
+    tools:context=".barang_ortus">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:onClick="kembali_homenarmour"
+            android:src="@drawable/ic_back" />
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="265dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_cart"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/hamburger_menu"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="400dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/armour1" />
+
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:orientation="horizontal">
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="80dp"
+                                android:backgroundTint="@color/white"
+                                android:background="@color/white"/>
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/armour1" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_marginLeft="85dp"
+                                android:src="@drawable/armour2" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_marginLeft="170dp"
+                                android:src="@drawable/armour3" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_marginLeft="255dp"
+                                android:src="@drawable/armour4" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="RP 1.399.300"
+                                android:textColor="@color/black"
+                                android:textSize="25dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="20dp"
+                                android:text="Under Armour Hovr Sonic 4 FnRn Cn"/>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/ic_star"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="30dp"
+                                android:textColor="@color/abu_abu_teks"
+                                android:text="5.0"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="55dp"
+                                android:textColor="@color/biru_teks"
+                                android:text="10 (reviews)"/>
+
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Deskripsi produk :"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:fontFamily="@font/roboto_medium"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:text="Under Armour Hovr Sonic 4 FnRn Cn adalah sepatu lari premium yang dirancang untuk memberikan kenyamanan maksimal dan performa optimal bagi pelari maraton. Dengan teknologi UA HOVR™, sepatu ini menawarkan sensasi zero gravity untuk mengurangi dampak pada setiap langkah, sambil memberikan pengembalian energi yang unggul. Bagian atas sepatu menggunakan bahan mesh ringan dan breathable untuk menjaga kaki tetap sejuk dan nyaman selama berlari jarak jauh. Sepatu ini dilengkapi dengan fitur konektivitas UA MapMyRun™, memungkinkan pelari melacak data lari secara real-time untuk meningkatkan kinerja. Outsole karet yang tahan lama dengan pola traksi canggih memberikan cengkeraman yang optimal di berbagai permukaan."
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/roboto"
+
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="-70dp">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/messenger"
+            android:layout_marginLeft="0dp"/>
+
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white_2"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Beli"
+            android:textColor="#648BDD"
+            android:textSize="12dp"
+            android:fontFamily="@font/roboto_medium"
+
+            />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#8AAAED"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Tambah ketroli"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:fontFamily="@font/roboto_medium"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
